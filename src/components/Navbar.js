@@ -7,10 +7,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="navbar">
+    <header className="navbar" style={{ borderBottom: '3px solid var(--accent)' }}>
       <div className="container navbar-container">
-        <Link href="/" className="logo">
-          KING <span className="logo-accent">INTERNATIONAL</span>
+        <Link href="/" className="logo" style={{ fontSize: '1.8rem', fontWeight: '900', letterSpacing: '-1px' }}>
+          KING <span style={{ color: 'var(--accent)' }}>INTERNATIONAL</span>
         </Link>
         
         <button 
@@ -25,11 +25,10 @@ export default function Navbar() {
 
         <nav className={`nav-links ${isOpen ? 'active' : ''}`}>
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
-          <Link href="/fee-structure" onClick={() => setIsOpen(false)}>Fee Structure</Link>
+          <Link href="/shop" onClick={() => setIsOpen(false)}>Products</Link>
+          <Link href="/about" onClick={() => setIsOpen(false)}>About Us</Link>
           <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
-          <Link href="/login" className="btn btn-secondary" style={{ padding: '8px 15px' }} onClick={() => setIsOpen(false)}>Login</Link>
-          <Link href="/apply" className="btn btn-accent" style={{ padding: '8px 15px' }} onClick={() => setIsOpen(false)}>Apply</Link>
+          <Link href="/contact" className="btn btn-accent" style={{ padding: '8px 20px', marginLeft: '10px' }} onClick={() => setIsOpen(false)}>Get a Quote</Link>
         </nav>
       </div>
     </header>
