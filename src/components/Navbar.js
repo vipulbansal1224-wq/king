@@ -25,12 +25,11 @@ export default function Navbar() {
 
         <nav className={`nav-links ${isOpen ? 'active' : ''}`}>
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/shop" onClick={() => setIsOpen(false)}>Shop</Link>
-          <Link href="/about" onClick={() => setIsOpen(false)}>About Us</Link>
+          <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="/fee-structure" onClick={() => setIsOpen(false)}>Fee Structure</Link>
           <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
-          <Link href="/cart" className="cart-icon" onClick={() => setIsOpen(false)}>
-            🛒 <span className="cart-count">0</span>
-          </Link>
+          <Link href="/login" className="btn btn-secondary" style={{ padding: '8px 15px' }} onClick={() => setIsOpen(false)}>Login</Link>
+          <Link href="/apply" className="btn btn-accent" style={{ padding: '8px 15px' }} onClick={() => setIsOpen(false)}>Apply</Link>
         </nav>
       </div>
     </header>

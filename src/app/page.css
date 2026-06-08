@@ -1,5 +1,5 @@
-.text-primary {
-  color: var(--primary);
+.text-accent {
+  color: var(--accent);
 }
 
 .section-padding {
@@ -15,38 +15,30 @@
   font-size: 2.2rem;
   letter-spacing: 1px;
   margin-bottom: 15px;
+  color: var(--primary);
 }
 
 .underline {
   width: 60px;
-  height: 3px;
-  background-color: var(--primary);
+  height: 4px;
+  background-color: var(--accent);
   margin: 0 auto;
+  border-radius: 2px;
 }
 
 /* Hero Section */
 .hero {
-  background-color: var(--secondary);
+  background-color: var(--primary);
+  background-image: linear-gradient(135deg, var(--primary) 0%, #172554 100%);
   color: white;
-  padding: 120px 0;
+  padding: 140px 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at center, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
-  pointer-events: none;
-}
-
 .hero-content h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -54,7 +46,7 @@
 
 .hero-content p {
   font-size: 1.2rem;
-  color: #cccccc;
+  color: #e2e8f0;
   max-width: 600px;
   margin: 0 auto 40px;
 }
@@ -65,112 +57,70 @@
   justify-content: center;
 }
 
-/* Category Cards */
-.category-card {
+/* Feature Cards */
+.feature-card {
   border-radius: var(--border-radius);
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  background-color: var(--bg-color);
-  transition: transform 0.3s;
-  cursor: pointer;
-}
-
-.category-card:hover {
-  transform: translateY(-5px);
-}
-
-.category-image {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-.category-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s;
-}
-
-.category-card:hover .category-image img {
-  transform: scale(1.05);
-}
-
-.category-info {
-  padding: 25px;
+  padding: 40px 30px;
   text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  background-color: var(--bg-color);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid var(--primary);
 }
 
-.category-info h3 {
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-top-color: var(--accent);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: var(--primary);
 }
 
-.category-link {
-  color: var(--primary);
+.feature-card p {
+  color: var(--text-muted);
+  margin-bottom: 25px;
+}
+
+.feature-link {
+  color: var(--accent);
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
 }
 
-/* Product Cards */
-.product-card {
-  text-align: center;
-  group: hover;
+/* About Section */
+.about-section {
+  background-color: var(--bg-secondary);
 }
 
-.product-image-container {
-  position: relative;
-  overflow: hidden;
+/* Testimonials */
+.testimonial-card {
+  background: white;
+  padding: 40px;
   border-radius: var(--border-radius);
-  margin-bottom: 15px;
-  background-color: #f5f5f5;
-  aspect-ratio: 1 / 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border-left: 4px solid var(--accent);
 }
 
-.product-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.product-card:hover .product-image {
-  transform: scale(1.05);
-}
-
-.product-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.product-card:hover .product-overlay {
-  opacity: 1;
-}
-
-.product-title {
+.testimonial-text {
   font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.product-price {
+  font-style: italic;
   color: var(--text-muted);
-  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.view-all-container {
-  text-align: center;
-  margin-top: 50px;
+.testimonial-author {
+  color: var(--primary);
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
