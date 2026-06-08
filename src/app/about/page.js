@@ -22,11 +22,11 @@ export default function AboutPage() {
           <div className="grid grid-cols-2" style={{ alignItems: 'flex-start' }}>
             <div>
               <h2 style={{ color: 'var(--primary)', marginBottom: '24px' }}>Legacy of Quality & Innovation</h2>
-              <p style={{ fontSize: '1.1rem', marginBottom: '24px', lineHeight: '1.8' }}>
+              <p style={{ fontSize: '1.1rem', marginBottom: '24px', lineHeight: '1.8', textAlign: 'justify' }}>
                 <strong>King International</strong> is a professionally managed company serving the textile and knitting industry in India. 
                 In a very short span of Time Company Has Built Its Reputation due to its Quality products and unmatched after sales Services.
               </p>
-              <p style={{ fontSize: '1.1rem', marginBottom: '24px', lineHeight: '1.8' }}>
+              <p style={{ fontSize: '1.1rem', marginBottom: '24px', lineHeight: '1.8', textAlign: 'justify' }}>
                 The company is having positive attitude in all fields to establish professional and efficient working system there by contributing to flawless result and efficiency. 
                 KING INTERNATIONAL has further set its targets to achieve hundred percent efficiency in all its ventures. The company believes in quality, economy, reliability and efficiency.
               </p>
