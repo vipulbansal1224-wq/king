@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const cleanProducts = siteData.products.filter(p => p.title && p.image).map(p => ({
   ...p,
-  content: p.content.replace(/<!--[\s\S]*?-->/g, '').replace(/\[.*?\]/g, '').trim()
+  content: p.content.replace(/<[^>]+>/g, '').replace(/<!--[\s\S]*?-->/g, '').replace(/\[.*?\]/g, '').trim()
 }));
 
 export function generateMetadata({ params }) {

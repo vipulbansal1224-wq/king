@@ -50,7 +50,8 @@ export default function HomePage() {
       {/* Hero Slider Section */}
       <section id="home" style={{ 
         position: 'relative', 
-        height: '85vh', 
+        height: '60vh', 
+        minHeight: '400px',
         overflow: 'hidden',
         backgroundColor: '#0f172a'
       }}>
@@ -62,13 +63,13 @@ export default function HomePage() {
               top: 0, left: 0, width: '100%', height: '100%',
               opacity: currentSlide === index ? 1 : 0,
               transition: 'opacity 1s ease-in-out',
-              background: `linear-gradient(rgba(15, 23, 42, 0.3), rgba(15, 23, 42, 0.6)), url("/wp-content/uploads/${slide.image}")`,
+              background: `url("/wp-content/uploads/${slide.image}")`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
           >
             <div className="container" style={{ height: '100%', display: 'flex', alignItems: 'center' }}>
-              <div style={{ maxWidth: '800px', color: '#fff' }} className={currentSlide === index ? 'animate-fade-in-up' : ''}>
+              <div style={{ maxWidth: '800px', color: '#fff', textShadow: '2px 2px 8px rgba(0,0,0,0.8)' }} className={currentSlide === index ? 'animate-fade-in-up' : ''}>
                 <span style={{ 
                   display: 'inline-block', 
                   padding: '6px 16px', 
