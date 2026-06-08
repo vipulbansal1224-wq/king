@@ -110,3 +110,22 @@ img {
 .grid-cols-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .grid-cols-3 { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
 .grid-cols-4 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+/* Force Full Width Layout for Injected WordPress Content */
+.site-container, 
+.content-container, 
+.elementor-container, 
+.site-header-row-container-inner, 
+.site-footer-row-container-inner,
+.wp-site-blocks,
+.elementor-section-wrap {
+  max-width: 100% !important;
+  width: 100vw !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
