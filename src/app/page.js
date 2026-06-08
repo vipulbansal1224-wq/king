@@ -13,13 +13,32 @@ export default function HomePage() {
 
   // Slider State
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slideImages = cleanProducts.slice(0, 4); // Use first 4 products for slider
+  const slideImages = [
+    {
+      id: 'slide1',
+      image: "2022/07/Banner02.jpg",
+      title: "KING INTERNATIONAL",
+      content: "Since 1986 King International has been involved as well known importer, supplier and distributors of circular knitting and flat knitting machine in India."
+    },
+    {
+      id: 'slide2',
+      image: "2022/07/1-1-1024x768.jpg",
+      title: "ADVANCED MACHINERY",
+      content: "Experience counts everytime. We provide the most robust industrial machines with a commitment to quality."
+    },
+    {
+      id: 'slide3',
+      image: "2022/07/Machine-720x325-v2.jpg",
+      title: "GLOBAL STANDARDS",
+      content: "Creative product range, timely deliveries, and an ethical business approach."
+    }
+  ];
 
   useEffect(() => {
     if (slideImages.length === 0) return;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slideImages.length);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(timer);
   }, [slideImages.length]);
 
@@ -43,7 +62,7 @@ export default function HomePage() {
               top: 0, left: 0, width: '100%', height: '100%',
               opacity: currentSlide === index ? 1 : 0,
               transition: 'opacity 1s ease-in-out',
-              background: `linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.8)), url("/wp-content/uploads/${slide.image}")`,
+              background: `linear-gradient(rgba(15, 23, 42, 0.3), rgba(15, 23, 42, 0.6)), url("/wp-content/uploads/${slide.image}")`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
