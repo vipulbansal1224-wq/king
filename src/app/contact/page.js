@@ -52,6 +52,7 @@ export default function ContactPage() {
               </div>
             </div>
 
+            <div>
               <div style={{ position: 'relative', borderRadius: 'var(--border-radius)', overflow: 'hidden', boxShadow: 'var(--shadow-deep)', padding: '24px', backgroundColor: 'var(--bg-color)', marginBottom: '32px' }}>
                 <h3 style={{ marginBottom: '20px' }}>Send an Enquiry</h3>
                 <form style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
