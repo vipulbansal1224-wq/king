@@ -1,0 +1,16 @@
+[01-Jun-2024 03:33:03 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:33:13 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:35:15 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:35:18 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:37:18 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:50:22 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:50:24 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/Den1xxx/Filemanager/master/languages/ru.json): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 88
+[01-Jun-2024 05:50:24 UTC] PHP Warning:  move_uploaded_file(/home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/wp-add.php): Failed to open stream: No such file or directory in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 1026
+[01-Jun-2024 05:50:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpdYsXyl' to '/home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/wp-add.php' in /home/news5tsef/www.kinginternational.org.in/wp-content/themes/nebvvrs/fm.php on line 1026
