@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <nav className="navbar">
           <div className="container">
             <Link href="/" className="nav-brand" style={{ display: 'flex', alignItems: 'center' }}>
-              <img src="/wp-content/uploads/2022/07/logo1.png" alt="King International Logo" style={{ height: '50px', width: 'auto' }} />
+              <img src="/wp-content/uploads/2022/07/logo1.png" alt="King International Logo" style={{ height: '70px', width: 'auto' }} />
             </Link>
             <div className="nav-links">
               <Link href="/">Home</Link>
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
               <Link href="/#downloads">Downloads</Link>
               <Link href="/contact" className="btn btn-primary" style={{ padding: '8px 16px', marginLeft: '16px', color: 'white' }}>Contact</Link>
             </div>
-            <a href="#contact" className="btn btn-accent" style={{ padding: '8px 20px', fontSize: '0.9rem', color: 'white' }}>Get Quote</a>
+            <Link href="/contact" className="btn btn-accent" style={{ padding: '8px 20px', fontSize: '0.9rem', color: 'white' }}>Get Quote</Link>
           </div>
         </nav>
         

@@ -87,7 +87,7 @@ export default function HomePage() {
                 </p>
                 <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                   <a href="#products" className="btn btn-accent">View All Machinery</a>
-                  <a href="#contact" className="btn" style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)' }}>Contact Us</a>
+                  <a href="/contact" className="btn" style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)' }}>Contact Us</a>
                 </div>
               </div>
             </div>
