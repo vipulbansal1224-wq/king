@@ -47,7 +47,6 @@ export default function ProductPage({ params }) {
                   src={`/wp-content/uploads/${product.image}`} 
                   alt={product.title} 
                   style={{ width: '100%', display: 'block' }} 
-                  onError={(e)=>{e.target.src="/wp-content/uploads/woocommerce-placeholder.png"}} 
                 />
               </div>
               <h2 style={{ marginBottom: '20px', color: 'var(--primary)' }}>Description</h2>

@@ -165,7 +165,7 @@ export default function HomePage() {
             {cleanProducts.map((product) => (
               <div key={product.id} className="product-card">
                 <div className="product-img-wrapper">
-                  <img src={`/wp-content/uploads/${product.image}`} alt={product.title} onError={(e)=>{e.target.src="/wp-content/uploads/woocommerce-placeholder.png"}} />
+                  <img src={`/wp-content/uploads/${product.image}`} alt={product.title} />
                 </div>
                 <div className="product-content">
                   <h3 className="product-title">{product.title}</h3>
