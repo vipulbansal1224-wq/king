@@ -31,8 +31,13 @@ export default function AboutPage() {
                 KING INTERNATIONAL has further set its targets to achieve hundred percent efficiency in all its ventures. The company believes in quality, economy, reliability and efficiency.
               </p>
             </div>
-            <div style={{ position: 'relative', borderRadius: 'var(--border-radius)', overflow: 'hidden', boxShadow: 'var(--shadow-deep)' }}>
-              <img src="/wp-content/uploads/2022/07/Banner02.jpg" alt="About King International" style={{ width: '100%', display: 'block' }} />
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <div style={{ width: '80%', borderRadius: 'var(--border-radius)', overflow: 'hidden', boxShadow: 'var(--shadow-deep)' }}>
+                <img src="/wp-content/uploads/2022/07/Banner02.jpg" alt="About King International" style={{ width: '100%', display: 'block' }} />
+              </div>
+              <div style={{ width: '80%', alignSelf: 'flex-end', marginTop: '-15%', borderRadius: 'var(--border-radius)', overflow: 'hidden', boxShadow: 'var(--shadow-deep)', position: 'relative', zIndex: 2, border: '6px solid #fff' }}>
+                <img src="/wp-content/uploads/2022/07/1-1-1024x768.jpg" alt="King International Factory" style={{ width: '100%', display: 'block' }} />
+              </div>
             </div>
           </div>
         </div>
