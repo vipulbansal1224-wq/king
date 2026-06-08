@@ -172,7 +172,7 @@ export default function HomePage() {
                   <p className="product-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                     {product.content}
                   </p>
-                  <a href="#contact" style={{ color: 'var(--accent)', fontWeight: '700', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  <a href={`/product/${product.id}`} style={{ color: 'var(--accent)', fontWeight: '700', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
                     Inquire Now <span style={{ fontSize: '1.2rem' }}>→</span>
                   </a>
                 </div>

@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
               <Link href="/pod-devices">POD Devices</Link>
               <Link href="/padbots">PadBots</Link>
               <Link href="/#downloads">Downloads</Link>
-              <Link href="/contact" className="btn btn-primary" style={{ padding: '8px 16px', marginLeft: '16px' }}>Contact</Link>
+              <Link href="/contact" className="btn btn-primary" style={{ padding: '8px 16px', marginLeft: '16px', color: 'white' }}>Contact</Link>
             </div>
-            <a href="#contact" className="btn btn-accent" style={{ padding: '8px 20px', fontSize: '0.9rem' }}>Get Quote</a>
+            <a href="#contact" className="btn btn-accent" style={{ padding: '8px 20px', fontSize: '0.9rem', color: 'white' }}>Get Quote</a>
           </div>
         </nav>
         
