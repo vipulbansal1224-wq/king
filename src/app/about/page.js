@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us | King International',
@@ -40,10 +41,19 @@ export default function AboutPage() {
       <section className="section" style={{ backgroundColor: 'var(--bg-color)' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <h2 style={{ marginBottom: '40px' }}>Shoes Upper Machine Gallery</h2>
-          <div className="grid grid-cols-3">
-            <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.23-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', borderRadius: '8px' }} />
-            <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.24-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', borderRadius: '8px' }} />
-            <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.25-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', borderRadius: '8px' }} />
+          <div className="grid grid-cols-3" style={{ gap: '30px' }}>
+            <div style={{ textAlign: 'center' }}>
+              <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.23-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '8px', marginBottom: '16px' }} />
+              <Link href="/contact" className="btn btn-accent" style={{ display: 'inline-block', padding: '10px 24px' }}>Enquire Now</Link>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.24-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '8px', marginBottom: '16px' }} />
+              <Link href="/contact" className="btn btn-accent" style={{ display: 'inline-block', padding: '10px 24px' }}>Enquire Now</Link>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <img src="/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-05-at-12.11.25-PM.jpeg" alt="Machine Gallery" style={{ width: '100%', height: '300px', objectFit: 'cover', borderRadius: '8px', marginBottom: '16px' }} />
+              <Link href="/contact" className="btn btn-accent" style={{ display: 'inline-block', padding: '10px 24px' }}>Enquire Now</Link>
+            </div>
           </div>
           
           <div style={{ marginTop: '60px' }}>
