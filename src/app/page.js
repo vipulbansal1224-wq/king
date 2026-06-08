@@ -40,9 +40,15 @@ export default function HomePage() {
     },
     {
       id: 'slide5',
-      image: "2022/07/contact-us.jpg",
-      title: "EXPERT SUPPORT",
-      content: "Dedicated after-sales support and service for all our machinery and equipment."
+      image: "2022/07/Banner02-1024x480.jpg",
+      title: "INNOVATIVE SOLUTIONS",
+      content: "Explore our diverse range of cutting-edge machinery designed for your business growth."
+    },
+    {
+      id: 'slide6',
+      image: "2022/09/WhatsApp-Image-2022-09-12-at-16.09.12-1-1024x474.jpeg",
+      title: "PREMIUM MACHINERY",
+      content: "Reliable performance ensuring high productivity and minimal downtime."
     }
   ];
 
