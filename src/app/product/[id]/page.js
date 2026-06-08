@@ -1,6 +1,11 @@
 import React from 'react';
-import { cleanProducts } from '../../data';
+import { siteData } from '../../data';
 import Link from 'next/link';
+
+const cleanProducts = siteData.products.filter(p => p.title && p.image).map(p => ({
+  ...p,
+  content: p.content.replace(/<!--[\s\S]*?-->/g, '').replace(/\[.*?\]/g, '').trim()
+}));
 
 export function generateMetadata({ params }) {
   const product = cleanProducts.find(p => p.id === params.id);
