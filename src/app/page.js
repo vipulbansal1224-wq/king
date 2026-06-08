@@ -31,6 +31,18 @@ export default function HomePage() {
       image: "2022/07/Machine-720x325-v2.jpg",
       title: "GLOBAL STANDARDS",
       content: "Creative product range, timely deliveries, and an ethical business approach."
+    },
+    {
+      id: 'slide4',
+      image: "2022/07/Threading-knitting-vacancy.jpg",
+      title: "PRECISION ENGINEERING",
+      content: "Setting new benchmarks in the textile and knitting manufacturing industry."
+    },
+    {
+      id: 'slide5',
+      image: "2022/07/contact-us.jpg",
+      title: "EXPERT SUPPORT",
+      content: "Dedicated after-sales support and service for all our machinery and equipment."
     }
   ];
 
