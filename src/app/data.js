@@ -1,4 +1,4 @@
-﻿export const siteData = {
+export const siteData = {
     "products": [
         {
             "id": "236",
@@ -60,22 +60,22 @@
             "id": "1663",
             "title": "Socks Knitting Machine",
             "slug": "socks-knitting-machine",
-            "content": "<img src=\"https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2023\/06\/D09CEA67-1531-4888-BE55-1B07F1A9508E-300x205.jpeg\" alt=\"\" width=\"300\" height=\"205\" class=\"alignnone size-medium wp-image-1668\" \/>",
-            "image": "2023\/06\/AS-6FP.jpg"
+            "content": "<img src=\"/wp-content/uploads/2023/06/D09CEA67-1531-4888-BE55-1B07F1A9508E-300x205.jpeg\" alt=\"\" width=\"300\" height=\"205\" class=\"alignnone size-medium wp-image-1668\" />",
+            "image": "2023/06/AS-6FP.jpg"
         },
         {
             "id": "1674",
             "title": "Socks Knitting Machine",
             "slug": "socks-knitting-machine-2",
-            "content": "<img src=\"https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2023\/06\/F17AE226-0644-442A-B9F2-DE064BB4EF7C-1-300x205.jpeg\" alt=\"\" width=\"300\" height=\"205\" class=\"alignnone size-medium wp-image-1669\" \/>",
-            "image": "2023\/06\/AS-6FP-1.jpg"
+            "content": "<img src=\"/wp-content/uploads/2023/06/F17AE226-0644-442A-B9F2-DE064BB4EF7C-1-300x205.jpeg\" alt=\"\" width=\"300\" height=\"205\" class=\"alignnone size-medium wp-image-1669\" />",
+            "image": "2023/06/AS-6FP-1.jpg"
         },
         {
             "id": "1676",
             "title": "Hat & scarf knitting machine",
             "slug": "hat-scarf-knitting-machine",
-            "content": "<img src=\"https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2023\/08\/WhatsApp-Image-2023-08-10-at-12.23.17-213x300.jpeg\" alt=\"\" width=\"213\" height=\"300\" class=\"alignnone size-medium wp-image-1677\" \/>",
-            "image": "2023\/08\/WhatsApp-Image-2023-08-10-at-12.21.45.jpeg"
+            "content": "<img src=\"/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-12.23.17-213x300.jpeg\" alt=\"\" width=\"213\" height=\"300\" class=\"alignnone size-medium wp-image-1677\" />",
+            "image": "2023/08/WhatsApp-Image-2023-08-10-at-12.21.45.jpeg"
         }
     ],
     "menus": [
@@ -180,16 +180,16 @@
             "url": ""
         },
         {
-            "title": "Downloads",
-            "url": "https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2022\/09\/catalogue-1.pdf"
+            "title": "Catalogue-1",
+            "url": "/wp-content/uploads/2022/09/catalogue-1.pdf"
         },
         {
             "title": "Catalogue-2",
-            "url": "https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2022\/09\/Catalogue-2.pdf"
+            "url": "/wp-content/uploads/2022/09/Catalogue-2.pdf"
         },
         {
             "title": "Ajooni Catalogue",
-            "url": "https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2023\/03\/ajoni.pdf"
+            "url": "/wp-content/uploads/2023/03/ajoni.pdf"
         },
         {
             "title": "",
@@ -197,7 +197,7 @@
         },
         {
             "title": "Probots-Catalogue",
-            "url": "https:\/\/ludhcloud.com\/king\/wp-content\/uploads\/2025\/03\/PadBot-Robots-202412.pdf"
+            "url": "/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf"
         }
     ]
 }

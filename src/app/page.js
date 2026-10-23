@@ -181,7 +181,7 @@ export default function HomePage() {
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
               {downloads.map((dl, i) => (
-                <a key={i} href={dl.url} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)' }}>
+                <a key={i} href={dl.url} download target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.2)' }}>
                   📄 {dl.title || 'Download PDF'}
                 </a>
               ))}

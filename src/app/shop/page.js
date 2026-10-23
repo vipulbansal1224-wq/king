@@ -80,8 +80,8 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}
 /*# sourceURL=kadence-blocks-global-variables-inline-css */
 </style>
-<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://ludhcloud.com/king/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742545818' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://ludhcloud.com/king/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742545825' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742545818' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742545825' media='all' />
 <!--n2css--><!--n2js--><script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 <script data-wp-strategy="defer" defer id="wc-jquery-blockui-js" src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.6.2"></script>
@@ -191,12 +191,12 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 <li id="menu-item-1685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1685"><a href="/?page_id=1683">PadBots</a></li>
 <li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="/?page_id=1090">About</a></li>
 <li id="menu-item-1171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="/?page_id=1142">Contact</a></li>
-<li id="menu-item-1521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/catalogue-1.pdf"><span class="nav-drop-title-wrap">Downloads<span class="dropdown-nav-toggle"><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+<li id="menu-item-1521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><a href="/wp-content/uploads/2022/09/catalogue-1.pdf"><span class="nav-drop-title-wrap">Downloads<span class="dropdown-nav-toggle"><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
 				</svg></span></span></span></a>
 <ul class="sub-menu">
-	<li id="menu-item-1545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
-	<li id="menu-item-1661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="https://ludhcloud.com/king/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
-	<li id="menu-item-1784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="https://ludhcloud.com/king/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
+	<li id="menu-item-1545" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
+	<li id="menu-item-1661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
+	<li id="menu-item-1784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
 </ul>
 </li>
 <li id="menu-item-965" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-965"><a href="#"><span class="nav-drop-title-wrap">Account<span class="dropdown-nav-toggle"><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
@@ -563,7 +563,7 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 						<div class="elementor-element elementor-element-4a37327 elementor-align-center elementor-widget elementor-widget-button" data-id="4a37327" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://ludhcloud.com/king/pod-devices/">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/pod-devices">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">See More &gt;&gt;</span>
 					</span>
@@ -578,7 +578,7 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 						<div class="elementor-element elementor-element-2a91e8c elementor-align-center elementor-button-info elementor-widget elementor-widget-button" data-id="2a91e8c" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://ludhcloud.com/king/pod-devices/">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/pod-devices">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">See More &gt;&gt;</span>
 					</span>
@@ -765,12 +765,12 @@ H.O : Flat 9-G, M.I.G Flats, Dasmesh Colony, Gill Chowk , Ludhiana -141003
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1685"><a href="/?page_id=1683">PadBots</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="/?page_id=1090">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="/?page_id=1142">Contact</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><div class="drawer-nav-drop-wrap"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/catalogue-1.pdf">Downloads</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#menu-nav_menu-3 .menu-item-1521 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><div class="drawer-nav-drop-wrap"><a href="/wp-content/uploads/2022/09/catalogue-1.pdf">Downloads</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#menu-nav_menu-3 .menu-item-1521 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
 				</svg></span></button></div>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="https://ludhcloud.com/king/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="https://ludhcloud.com/king/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-965"><div class="drawer-nav-drop-wrap"><a href="#">Account</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#menu-nav_menu-3 .menu-item-965 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
@@ -781,7 +781,7 @@ H.O : Flat 9-G, M.I.G Flats, Dasmesh Colony, Gill Chowk , Ludhiana -141003
 </ul>
 </li>
 </ul></div></section><section id="block-18" class="widget widget_block widget_media_image">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="568" height="389" src="https://ludhcloud.com/king/wp-content/uploads/2022/07/logo2-1.png" alt="" class="wp-image-1389" srcset="/wp-content/uploads/2022/07/logo2-1.png 568w, /wp-content/uploads/2022/07/logo2-1-300x205.png 300w" sizes="(max-width: 568px) 100vw, 568px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="568" height="389" src="/wp-content/uploads/2022/07/logo2-1.png" alt="" class="wp-image-1389" srcset="/wp-content/uploads/2022/07/logo2-1.png 568w, /wp-content/uploads/2022/07/logo2-1-300x205.png 300w" sizes="(max-width: 568px) 100vw, 568px" /></figure>
 </section>	</div>
 </div>
 					</div>
@@ -934,12 +934,12 @@ H.O : Flat 9-G, M.I.G Flats, Dasmesh Colony, Gill Chowk , Ludhiana -141003
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1685"><a href="/?page_id=1683">PadBots</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="/?page_id=1090">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="/?page_id=1142">Contact</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><div class="drawer-nav-drop-wrap"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/catalogue-1.pdf">Downloads</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#mobile-menu .menu-item-1521 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1521"><div class="drawer-nav-drop-wrap"><a href="/wp-content/uploads/2022/09/catalogue-1.pdf">Downloads</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#mobile-menu .menu-item-1521 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
 				</svg></span></button></div>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="https://ludhcloud.com/king/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="https://ludhcloud.com/king/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="https://ludhcloud.com/king/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1545"><a href="/wp-content/uploads/2022/09/Catalogue-2.pdf">Catalogue-2</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1661"><a href="/wp-content/uploads/2023/03/ajoni.pdf">Ajooni Catalogue</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1784"><a href="/wp-content/uploads/2025/03/PadBot-Robots-202412.pdf">Probots-Catalogue</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-965"><div class="drawer-nav-drop-wrap"><a href="#">Account</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#mobile-menu .menu-item-965 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Expand</title><path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
